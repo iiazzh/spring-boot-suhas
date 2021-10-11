@@ -6,8 +6,9 @@ Suhas M H
 
 # H2 Database Operation
 Once the application is up and running, to access H2 console, go to http://localhost:8080/h2-console
+Creds:
 JDBC URL: jdbc:h2:file:./data/demo
 Username: sa
 Password: password
 
-Latest creds always in application.properties
+Latest creds always in application.yaml
