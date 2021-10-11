@@ -32,3 +32,4 @@ hs_err_pid*
 target/classes/application.properties
 data/demo.mv.db
 target/classes/data.sql
+target/classes/application.yaml

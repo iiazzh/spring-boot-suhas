@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: sa
+    url: jdbc:h2:file:./data/demo
+    driverClassName: org.h2.Driver
+    password: password
+  h2:
+    console:
+      enabled: 'true'
+      settings:
+        web-allow-others: 'false'
+        trace: 'false'
+      path: /h2-console
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
