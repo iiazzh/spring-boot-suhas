@@ -12,3 +12,6 @@ Username: sa
 Password: password
 
 Latest creds always in application.yaml
+
+# To see if app is up and running
+Access via GET http://localhost:8080/test
