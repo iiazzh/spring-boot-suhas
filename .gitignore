@@ -30,3 +30,5 @@ hs_err_pid*
 .idea/vcs.xml
 .idea/workspace.xml
 target/classes/application.properties
+data/demo.mv.db
+target/classes/data.sql
