@@ -16,7 +16,7 @@ Latest creds always in application.yaml
 # To see if app is up and running
 Access via GET http://localhost:8080/test
 
-# Generate immutable classes based on abstract classes in models package when using IntelliJ
+# Generate immutable classes based on abstract classes in 'models' package when using IntelliJ
 This step is required since intellij settings are not maintained in git.
 
 This uses GitHub immutables
