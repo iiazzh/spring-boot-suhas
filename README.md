@@ -1,5 +1,5 @@
 # About
-This is a spring boot project with some needed dependencies and configuration to get some work started.
+This is a spring boot project with some common dependencies and basic configuration to get some work started. Not to be used for active development. This also serves as the parent for all spring boot project across all repos in this github account. One single place to put in all common dependencies, common spring boot configuration and control the spring boot version.
 
 # Author
 Suhas M H
