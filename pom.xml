@@ -3,10 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <!--Spring Boot version must be the only one maintained outside this properties tag (in parent tag below)-->
+        <java.version>11</java.version>
+        <orgimmutables.version>2.8.8</orgimmutables.version>
+    </properties>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.5.5</version>
+        <version>3.0.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -18,10 +24,6 @@
     <description>Basic project for Spring Boot</description>
 
     <packaging>pom</packaging>
-
-    <properties>
-        <java.version>11</java.version>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -54,7 +56,7 @@
         <dependency>
             <groupId>org.immutables</groupId>
             <artifactId>value</artifactId>
-            <version>2.8.8</version>
+            <version>${orgimmutables.version}</version>
             <scope>provided</scope>
         </dependency>
         <!-- End dependency for github immutables to generate models-->
